@@ -1,6 +1,3 @@
-# This package is no longer actively developed. [More details here/Call for maintainers](https://github.com/JoggApp/laravel-google-translate/discussions/51)
-
-
 # Laravel package for the Google Translate API
 
 [![Latest Version](https://img.shields.io/github/release/dgironella/laravel-google-translate.svg?style=flat-rounded)](https://github.com/dgironella/laravel-google-translate/releases)
