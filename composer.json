@@ -1,6 +1,6 @@
 {
-    "name": "joggapp/laravel-google-translate",
-    "description": "Laravel package for the Google Translate API",
+    "name": "dgironella/laravel-google-translate",
+    "description": "Laravel package for the Google Translate API ",
     "keywords": [
         "laravel",
         "package",
@@ -12,37 +12,37 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Harish Toshniwal",
-            "email": "harish@jogg.co"
+            "name": "Dani Gironella",
+            "email": "david.gironella@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "JoggApp\\GoogleTranslate\\": "src"
+            "Dgironella\\GoogleTranslate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JoggApp\\GoogleTranslate\\Tests\\": "tests"
+            "Dgironella\\GoogleTranslate\\Tests\\": "tests"
         }
     },
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "google/cloud-translate": "^1.2",
-        "illuminate/support": "9.*"
+        "illuminate/support": "10.*"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
-        "orchestra/testbench" : "7.*",
+        "orchestra/testbench" : "8.*",
         "phpunit/phpunit": "^9.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JoggApp\\GoogleTranslate\\GoogleTranslateServiceProvider"
+                "Dgironella\\GoogleTranslate\\GoogleTranslateServiceProvider"
             ],
             "aliases":{
-                "GoogleTranslate": "JoggApp\\GoogleTranslate\\GoogleTranslateFacade"
+                "GoogleTranslate": "Dgironella\\GoogleTranslate\\GoogleTranslateFacade"
             }
         }
     },

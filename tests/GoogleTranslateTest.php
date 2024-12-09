@@ -1,10 +1,10 @@
 <?php
 
-namespace JoggApp\GoogleTranslate\Tests;
+namespace Dgironella\GoogleTranslate\Tests;
 
 use Illuminate\Support\Facades\Config;
-use JoggApp\GoogleTranslate\GoogleTranslate;
-use JoggApp\GoogleTranslate\GoogleTranslateClient;
+use Dgironella\GoogleTranslate\GoogleTranslate;
+use Dgironella\GoogleTranslate\GoogleTranslateClient;
 use Mockery;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 

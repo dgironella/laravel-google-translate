@@ -1,5 +1,8 @@
 All the notable changes to the Laravel Google Translate package are documented in this file:
 
+## 10.0 (9-12-2024)
+- Fork from JoggApp/laravel-google-translate to Dgironella/laravel-google-translate
+
 ## 9.0 (1-1-2023)
 - Change method name (fix typo)
 

@@ -3,9 +3,9 @@
 
 # Laravel package for the Google Translate API
 
-[![Latest Version](https://img.shields.io/github/release/JoggApp/laravel-google-translate.svg?style=flat-rounded)](https://github.com/JoggApp/laravel-google-translate/releases)
-![](https://github.com/JoggApp/laravel-google-translate/workflows/Run%20Tests/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/JoggApp/laravel-google-translate.svg?style=flat-rounded&colorB=brightgreen)](https://packagist.org/packages/JoggApp/laravel-google-translate)
+[![Latest Version](https://img.shields.io/github/release/dgironella/laravel-google-translate.svg?style=flat-rounded)](https://github.com/dgironella/laravel-google-translate/releases)
+![](https://github.com/dgironella/laravel-google-translate/workflows/Run%20Tests/badge.svg?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/dgironella/laravel-google-translate.svg?style=flat-rounded&colorB=brightgreen)](https://packagist.org/packages/dgironella/laravel-google-translate)
 
 This package makes using the Google Translate API in your laravel app a breeze with minimum to no configuration, clean syntax and a consistent package API.
 
@@ -16,7 +16,7 @@ This package makes using the Google Translate API in your laravel app a breeze w
 - You can install this package via composer using this command:
 
 ```bash
-composer require joggapp/laravel-google-translate
+composer require dgironella/laravel-google-translate
 ```
 
 - The package will automatically register itself.
@@ -26,7 +26,7 @@ composer require joggapp/laravel-google-translate
 - You can publish the config file using the following command:
 
 ```bash
-php artisan vendor:publish --provider="JoggApp\GoogleTranslate\GoogleTranslateServiceProvider"
+php artisan vendor:publish --provider="Dgironella\GoogleTranslate\GoogleTranslateServiceProvider"
 ```
 
 This will create the package's config file called `googletranslate.php` in the `config` directory. These are the contents of the published config file:
@@ -46,7 +46,7 @@ return [
     |
     | The process to get this file is documented in a step by step detailed manner
     | over here:
-    | https://github.com/JoggApp/laravel-google-translate/blob/master/google.md
+    | https://github.com/dgironella/laravel-google-translate/blob/master/google.md
     |-------------------------------------------------------------------------------
     */
     'api_key' => env('GOOGLE_TRANSLATE_API_KEY'),
