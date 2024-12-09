@@ -28,8 +28,7 @@
     },
     "require": {
         "php": "^8.2",
-        "google/cloud-translate": "^1.2",
-        "illuminate/support": "10.*"
+        "google/cloud-translate": "^1.2"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
